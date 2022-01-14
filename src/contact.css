@@ -1,0 +1,112 @@
+:root{
+  --bg-color:#fff;
+    --color:#000;
+    --font-color:#696969;
+    --bg-color-2:#f7f7f7;
+    --heading-color:#2c3038;
+}
+.dark-theme{
+  --bg-color:#131617 !important;
+  --bg-color-2:#0b0d0e;
+  --color:#fff;
+  --font-color:#b7b7b7;
+  --heading-color:#eee;
+
+}
+.contact-grid{
+    background: var(--bg-color-2);
+
+}
+form.signin-form{
+        margin: 0 auto;
+    max-width: 1000px;
+
+}
+.form-grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 38px;
+}
+.form-inner-cont input, .form-inner-cont textarea {
+    outline: none;
+    width: 100%;
+    font-family: inherit;
+    text-align: left;
+    -webkit-appearance: none;
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    align-items: center;
+    border-radius: 6px;
+    min-height: 70px;
+    padding: 20px 30px;
+    border: 1px solid var(--bg-color);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--font-color);
+    background-color: var(--bg-color);
+}
+.form-inner-cont input:focus, .form-inner-cont textarea:focus {
+    border: 1px solid #8731e8;
+    background: var(--bg-color);
+}
+.form-inner-cont textarea {
+    height: 220px;
+    resize: none;
+    padding: 13px 20px;
+    margin: 25px 0px;
+    background-color: var(--bg-color);
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    align-items: center;
+    padding-left: 15px;
+    border: 1px solid var(--bg-color);
+    border-radius: 6px;
+}
+.address-grid {
+    padding: 2.5rem;
+    text-align: left;
+    border-radius: 6px;
+    border: 1px solid var(--bg-color);
+    background: var(--bg-color);
+    position: relative;
+    overflow: hidden;
+}
+.address-grid h6 {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.address-grid p {
+    margin-top: 25px;
+}
+.address-grid .pos-icon {
+    position: absolute;
+    bottom: -22px;
+    right: -5px;
+    transform: rotate(-30deg);
+}
+.address-grid .pos-icon svg{
+    font-size: 80px;
+    color: #999;
+    opacity: 0.1;
+    transition: .3s;
+}
+.address-grid a:hover {
+    text-decoration: underline;
+    color: #8731e8;
+}
+.address-grid a {
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--para-color);
+    display: block;
+}
+.contact-sub iframe{
+    width: 100%;
+    height: 450px;
+    display: block;
+    filter: grayscale(0%);
+    -webkit-filter:grayscale(0%);
+}
