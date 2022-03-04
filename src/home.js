@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react"
 // import { FaCubes, FaBalanceScale, FaLaptop, FaTv, FaChartPie, FaCogs, FaRecycle, FaDatabase, FaUsers, FaDownload, FaCoffee } from 'react-icons/fa';
-import { BsPencilSquare, } from 'react-icons/bs';
-import { FiSmile } from 'react-icons/fi';
-import { HiRefresh, HiSupport } from 'react-icons/hi';
-import { DiAndroid } from 'react-icons/di';
+// import { BsPencilSquare, } from 'react-icons/bs';
+// import { FiSmile } from 'react-icons/fi';
+// import { HiRefresh, HiSupport } from 'react-icons/hi';
+// import { DiAndroid } from 'react-icons/di';
 import Layout from "./Layout"
 
 const Home = ({ handleViewChange }) => {
